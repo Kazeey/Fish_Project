@@ -1,0 +1,192 @@
+* {
+    font-family: Verdana; 
+}  
+
+body {
+    background: url("../images/wallpaper_01.png") no-repeat center fixed ;
+    background-size: cover;
+     -webkit-background-size: cover; 
+    padding-top: 1%;
+}
+
+
+/* Partie CSS pour la page affichage */
+
+.affichage_gauche {     
+    margin-left : 4.5em;   
+    margin-top: 5em;
+    float : left;
+}
+
+.affichage_droite { 
+    margin-right : 2.5em;   
+    margin-left : 76em;
+    margin-top : 0.39em;
+    float : left;
+    
+}
+.imagedroite{
+    margin-right : 2em;   
+    margin-left : 82.5em;
+    margin-top : 6.2em;
+    
+}
+
+.RectangleImage_fond {
+    background-color: rgba(10, 30, 77, 0.6);
+    max-width : 1112px;
+    height : 300px;
+    color : white;
+    margin-right : 2.3em;
+    
+    
+
+}
+
+.RectangleImage_fond img {
+height:300px;
+width:550px;
+}
+
+.RectangleImage_Bande{
+    background-color : rgba(87, 175, 243, 0.6);
+    height : 350px;
+    text-align: left;
+    font-size : 20px;
+    
+}
+
+.BoiteNom {
+    background-color: rgba(10, 30, 77, 0.6);
+
+}
+
+.PetiteBoite {
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 250px;
+    height : 250px;
+    color : white;
+    margin-top : 2.3em;
+    margin-right : 2.3em;
+    float : left;
+    text-align: center;  
+     
+}
+
+
+.PetiteBoite_Bas { 
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 250px;
+    height : 250px;
+    color : white;
+    margin-top : -15.62em;  /* Pour remonter la div */
+    margin-right : 0em; 
+    margin-left : -17.90em;
+    float : left;
+    text-align: center; 
+}
+
+.PetiteBoite_Bas2 { 
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 250px;
+    height : 250px;
+    color : white;
+    margin-top : -15.62em;  
+    margin-right : 6em; 
+    
+    float : left;
+}
+.Boite_Droite{
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 600px;
+    height : 250px;
+    color : white;
+    margin-top : -16em;  
+    margin-right : 2em; 
+    float : right;
+    text-align: center; 
+}
+
+.Boite_Droite_Bas{
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 600px;
+    height : 250px;
+    color : white;
+    margin-top :14.3em;  /* Pour remonter la div */
+    float : center;
+    text-align: center;
+    
+}
+
+.GrandeBoite_Bas {
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 538px;
+    height : 250px;
+    color : white;
+    margin-top : 17em;
+    margin-left : -53.75em;
+    margin-right: 1em;
+    
+} 
+
+.GrandeBoite_droite{
+    background-color: rgba(10, 30, 77, 0.6);
+    width : 538px;
+    height : 100px;
+    color : white;
+    margin-top : 1em;  
+    margin-right : 2em; 
+    
+}
+.BandeMilieu {
+    background-color : rgba(87, 175, 243, 0.6);
+    height : 30px;
+    text-align: center;
+    color : white;
+    margin-top : -1em;
+    margin-bottom : 1.5em ;
+}
+.BandeHaut{ 
+    background-color : rgba(87, 175, 243, 0.6);
+    height : 0px;
+    text-align: left;
+    margin-right: 19em;
+    margin-left:55%;
+    
+    
+}
+.BandeBas{
+    background-color : rgba(87, 175, 243, 0.6);
+    height : 30px;
+    text-align: center;
+    color : white;
+    margin-top: 15em;
+    margin-bottom: 1em;
+
+
+}
+
+
+.Texte_Nom {
+    font-size : 20 px;
+    font-weight: bold; 
+    text-align: left;
+    margin-right:40%;
+    
+       
+    
+}
+
+.general{
+    margin-left : 1em;   
+    margin-top: -6em;
+    margin-right:2;
+    float:center; 
+}
+
+.modif {
+    margin-left : 7%;
+}
+.btn-warning {
+    margin-left : 50%;
+}
