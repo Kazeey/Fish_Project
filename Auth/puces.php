@@ -39,7 +39,7 @@
                                   <span class='echo_Puces'>
                                         <?=$donnees['num_poisson']/*nom_commun_FR espece*/?>
                                         <br><br>
-                                        <a href="../Nausicaa_POO/index.php?id=<?php echo $donnees['num_poisson']/*num_poisson id*/?>">
+                                        <a href="../POO/index.php?id=<?php echo $donnees['num_poisson']/*num_poisson id*/?>">
                                             <button type="button" class="btn btn-info">Consulter</button>
                                         </a>                                    
                                         <a href="Stats_ecrite.php?id=<?php echo $donnees['num_poisson']/*num_poisson id*/?>">

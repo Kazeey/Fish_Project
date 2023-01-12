@@ -7,7 +7,7 @@ class CBDD
     public function __construct(){
 
         $_hote = "localhost";
-        $_dbname = "bdd_nausicaa";
+        $_dbname = "bdd";
         $_identifiant = "root";
         $_mdp = "";
 

@@ -11,7 +11,7 @@
     ?>
 <body>
     <div class="modif">
-        <a href="../Nausicaa_Auth/puces.php?valeur=<?php echo $nom?>">
+        <a href="../Auth/puces.php?valeur=<?php echo $nom?>">
             <button type="button" class="btn btn-warning" id="btn_suppr_graph">Retour</button>
         </a>
 
